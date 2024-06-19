@@ -17,24 +17,24 @@ users = [
     email: "chaitanya@gmail.com",
     password: "password123"
   },
-  {
-    username: "psaisowjanya",
-    phone_number: "+18503453127",
-    email: "psaisowjanya@gmail.com",
-    password: "password456"
-  },
-  {
-    username: "chaitanyapindi",
-    phone_number: "+18506667539",
-    email: "chaitanyap@gmail.com",
-    password: "password789"
-  },
-  {
-    username: "sahithiv",
-    phone_number: "+19013503580",
-    email: "sahithiv@gmail.com",
-    password: "passwordabc"
-  } 
+  # {
+  #   username: "psaisowjanya",
+  #   phone_number: "+18503453127",
+  #   email: "psaisowjanya@gmail.com",
+  #   password: "password456"
+  # },
+  # {
+  #   username: "chaitanyapindi",
+  #   phone_number: "+18506667539",
+  #   email: "chaitanyap@gmail.com",
+  #   password: "password789"
+  # },
+  # {
+  #   username: "sahithiv",
+  #   phone_number: "+19013503580",
+  #   email: "sahithiv@gmail.com",
+  #   password: "passwordabc"
+  # } 
 ]
 
 # Create users with passwords
@@ -62,27 +62,27 @@ articles = [
     updated_at: "2024-06-18 14:19:06",
     user_id: 1
   },
-  {
-    title: "Integrating Real-Time SMS Notifications",
-    text: "Explore how to integrate real-time SMS notifications using popular APIs like Twilio or ClickSend.",
-    created_at: "2024-06-18 15:42:39",
-    updated_at: "2024-06-18 15:42:39",
-    user_id: 2
-  },
+  # {
+  #   title: "Integrating Real-Time SMS Notifications",
+  #   text: "Explore how to integrate real-time SMS notifications using popular APIs like Twilio or ClickSend.",
+  #   created_at: "2024-06-18 15:42:39",
+  #   updated_at: "2024-06-18 15:42:39",
+  #   user_id: 2
+  # },
   {
     title: "Enhancing User Engagement with SMS Sharing",
     text: "Discover how SMS sharing can enhance user engagement by providing instant updates and notifications.",
     created_at: "2024-06-18 16:01:22",
     updated_at: "2024-06-18 16:01:22",
-    user_id: 3
-  },
-  {
-    title: "Building a Personal Blog with User Authentication",
-    text: "Create a personal blog where users can authenticate, create, update, and delete their own articles.",
-    created_at: "2024-06-18 23:43:31",
-    updated_at: "2024-06-18 23:43:31",
     user_id: 1
   },
+  # {
+  #   title: "Building a Personal Blog with User Authentication",
+  #   text: "Create a personal blog where users can authenticate, create, update, and delete their own articles.",
+  #   created_at: "2024-06-18 23:43:31",
+  #   updated_at: "2024-06-18 23:43:31",
+  #   user_id: 1
+  # },
   {
     title: "Implementing Real-Time Updates in Rails",
     text: "Test whether a message is being shared with users when blog content is updated.",
@@ -95,14 +95,14 @@ articles = [
     text: "Track user activities with sign-in and sign-out notifications for better user engagement.",
     created_at: "2024-06-19 01:44:05",
     updated_at: "2024-06-19 01:44:05",
-    user_id: 2
+    user_id: 1
   },
   {
     title: "Keeping Users Informed: Notification Strategies",
     text: "Ensure users are informed about every update and event through effective notification strategies.",
     created_at: "2024-06-19 02:02:10",
     updated_at: "2024-06-19 02:02:10",
-    user_id: 3
+    user_id: 1
   },
   {
     title: "Optimizing Dashboard Performance for Message Display",
@@ -111,13 +111,13 @@ articles = [
     updated_at: "2024-06-19 03:33:15",
     user_id: 1
   },
-  {
-    title: "Becoming a Real-Time Database Administrator",
-    text: "Develop essential database skills to become proficient in real-time database administration.",
-    created_at: "2024-06-19 04:04:55",
-    updated_at: "2024-06-19 04:04:55",
-    user_id: 4
-  }
+  # {
+  #   title: "Becoming a Real-Time Database Administrator",
+  #   text: "Develop essential database skills to become proficient in real-time database administration.",
+  #   created_at: "2024-06-19 04:04:55",
+  #   updated_at: "2024-06-19 04:04:55",
+  #   user_id: 4
+  # }
 ]
 
 # Create articles
@@ -139,27 +139,27 @@ messages = [
     created_at: "2024-06-19 03:33:16",
     updated_at: "2024-06-19 03:33:16"
   },
-  {
-    to: "+18506317411",
-    body: "Hi chaitup, you have successfully signed out.",
-    status: "success",
-    created_at: "2024-06-19 03:45:38",
-    updated_at: "2024-06-19 03:45:38"
-  },
-  {
-    to: "+19013503580",
-    body: "Welcome sahithiv! Thank you for registering.",
-    status: "success",
-    created_at: "2024-06-19 03:59:58",
-    updated_at: "2024-06-19 03:59:58"
-  },
-  {
-    to: "+19013503580",
-    body: "Hey sahithiv ! A new article with 'Becoming a Real-Time Database Administrator' title is created.",
-    status: "success",
-    created_at: "2024-06-19 04:04:56",
-    updated_at: "2024-06-19 04:04:56"
-  }
+  # {
+  #   to: "+18506317411",
+  #   body: "Hi chaitup, you have successfully signed out.",
+  #   status: "success",
+  #   created_at: "2024-06-19 03:45:38",
+  #   updated_at: "2024-06-19 03:45:38"
+  # },
+  # {
+  #   to: "+19013503580",
+  #   body: "Welcome sahithiv! Thank you for registering.",
+  #   status: "success",
+  #   created_at: "2024-06-19 03:59:58",
+  #   updated_at: "2024-06-19 03:59:58"
+  # },
+  # {
+  #   to: "+19013503580",
+  #   body: "Hey sahithiv ! A new article with 'Becoming a Real-Time Database Administrator' title is created.",
+  #   status: "success",
+  #   created_at: "2024-06-19 04:04:56",
+  #   updated_at: "2024-06-19 04:04:56"
+  # }
 ]
 
 # Create messages
