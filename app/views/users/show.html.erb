@@ -1,0 +1,11 @@
+<h1>User Profile</h1>
+<p>Username: <%= @user.username %></p>
+<p>Phone Number: <%= @user.phone_number %></p>
+
+<h2>Articles by <%= @user.username %></h2>
+<% @user.articles.each do |article| %>
+  <div>
+    <h3><%= article.title %></h3>
+    <p><%= article.content %></p>
+  </div>
+<% end %>
